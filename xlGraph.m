@@ -9,11 +9,18 @@ xl.Visible = 1;
 
 L = int16.empty;
 
-% chart objects
+% define xl chart 
 xlCO = xlS.ChartObjects.Add(100, 30, 400, 250); 
-xlC = xlCO.Chart;  
+xlC = xlCO.Chart;
 
- 
+% Set chart type and title
+xlC.ChartType = 1;
+xlC.ChartType = 65;
+xlC.ChartType = 'xlXYScatterSmooth';
+xlC.HasTitle = true;
+xlC.ChartTitle.Text = 'Figure 1: ';
+
+
 if nargin > 10
     error('Too many input arguments to the xlGraph function');
 end
@@ -248,14 +255,7 @@ elseif nargin == 1
      
 end
 
-% Set chart type
-xlCO.Chart.ChartType = 1;
-xlCO.Chart.ChartType = 65;
-xlCO.Chart.ChartType = 'xlXYScatterSmooth';
 
-% Set chart title 
-xlCO.Chart.HasTitle = true;
-xlCO.Chart.ChartTitle.Text = 'Figure 1: ';
 
 
 
