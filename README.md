@@ -24,8 +24,13 @@ The API allows you to plot an unlimited number of series onto an excel chart
 x = [0, 1, 2]
 y = [0, 1, 2]
 
-x2 = [9, 7, 6]
-y2 = [5, 4, 3]
+x2 = [0, 1.5, 2]
+y2 = [2, 1, 0.5]
+
+x3 = [2.5, 1.5, 0.5]
+y3 = [0, 2, 1]
+
+
 xlGraph(x, y, x2, y2)
 ```
 
