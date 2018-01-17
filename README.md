@@ -14,6 +14,9 @@ y = [0, 1, 2]
 xlGraph(x, y)
 ```
 
+![](examples/xlGraph(x,y).jpg)
+
+
 The API allows you to plot an unlimited number of series onto an excel chart
 
 
