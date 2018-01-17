@@ -1,9 +1,27 @@
 # xlGraph.m
-MATLAB function to display data in MS Excel table
+MATLAB API that plots your 2D data in an Excel table
 
-For relatively simple 2D charts, I always felt excel did a better job than the MATLAB "plot" function. So I wrote a function to plot excel charts within a MATLAB script   
+## Motivation
 
-The function can plot up to 5 curves on the same graph 
+For 2D charts, I always felt excel did a better job than the MATLAB "plot" function. So I wrote an API to create excel charts within a MATLAB script   
 
-NOTE: functions must be saved in your MATLAB "current folder"
 
+## How to use
+
+```bash
+x = [0, 1, 2]
+y = [0, 1, 2]
+xlGraph(x, y)
+```
+
+The API allows you to plot an unlimited number of series onto an excel chart
+
+
+```bash
+x = [0, 1, 2]
+y = [0, 1, 2]
+
+x2 = [9, 7, 6]
+y2 = [5, 4, 3]
+xlGraph(x, y, x2, y2)
+```
