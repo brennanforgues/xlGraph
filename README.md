@@ -28,3 +28,5 @@ x2 = [9, 7, 6]
 y2 = [5, 4, 3]
 xlGraph(x, y, x2, y2)
 ```
+
+![](examples/xlGraph(x,y,x2,y2,x3,y3).jpg)
