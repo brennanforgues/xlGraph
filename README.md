@@ -30,7 +30,9 @@ y2 = [2, 1, 0.5]
 x3 = [2.5, 1.5, 0.5]
 y3 = [0, 2, 1]
 
-xlGraph(x, y, x2, y2)
+% etc...
+
+xlGraph(x, y, x2, y2, x3, y3)
 ```
 
 ![](examples/xlGraph(x,y,x2,y2,x3,y3).jpg)
