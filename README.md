@@ -17,7 +17,7 @@ xlGraph(x, y)
 ![](examples/xlGraph(x,y).jpg)
 
 
-The API allows you to plot an unlimited number of series onto an excel chart
+The API allows you to plot an unlimited number of series' onto an excel chart
 
 
 ```bash
